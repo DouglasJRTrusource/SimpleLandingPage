@@ -20,7 +20,7 @@ a {
 }
 
 .nav__links {
-  list-styles: none;
+  list-style: none;
 }
 
 .nav__links li {
@@ -35,4 +35,24 @@ a {
 
 .nav__links li a:hover {
   color: orange;
+}
+
+.hero {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-evenly;
+}
+#heading1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+#paragraph1 {
+  font-size: 18px;
+}
+#signupbutton {
+  background-color: #3882f6;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
 }
